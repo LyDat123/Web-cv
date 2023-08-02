@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Portfolio Website</title>
+    <!-- Reset -->
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <!-- Box icon -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Custom css -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+</head>
+
+<body>
+    <!-- Logo + hashtag design -->
+    <header class="header">
+        <a href="#" class="logo" notranslate>LÝ ĐẠT</a>
+        <nav class="navbar">
+            <a href="#home" class="active">HOME</a>
+            <a href="#about">ABOUT</a>
+            <a href="#skills">SKILLS</a>
+            <a href="#contact">CONTACT</a>
+        </nav>
+    </header>
+
+    <button id="scrollToTopBtn" onclick="scrollToTop()"><i class='bx bxs-to-top'></i></button>
+    
+    <!-- home section design -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>LÝ ĐẠT</h1>
+            <h3>And I'm a <span class="mutilple-text">FrontEnd Developer</span></h3>
+            <p>With extensive experience in user interface design and web programming,
+                I ensure to deliver exceptional user experiences. I love creativity, performance optimization,
+                and building reliable web applications. Proficient in HTML, CSS, JavaScript, and popular frameworks like React and Vue,
+                I confidently craft beautiful, interactive, and user-friendly interfaces.
+                I constantly seek opportunities to explore new technologies and enhance my skills to create even better websites.</p>
+    <!-- button social-media -->
+            <div class="social-media">
+                <a href="https://www.facebook.com/profile.php?id=100015849612379"><i class='bx bxl-facebook' ></i></a>
+                <a href="#"><i class='bx bxl-twitter' ></i></a>
+                <a href="https://www.instagram.com/lydat10a1/"><i class='bx bxl-instagram' ></i></a>
+                <a href="#"><i class='bx bxl-linkedin' ></i></a>
+            </div>
+            <a class="custom-btn btn" href="./assets/CV/CV_LY_DAT_Font_End_Developer.pdf" download>Download CV</a>
+        </div>
+
+        <div class="home-img">
+            <img src="./assets/image/img home.png" alt="Ảnh đại diện">
+        </div>
+    </section>
+
+    <!-- Section About design -->
+    <section id="about" class="about">
+        <div class="about-img">
+            <img src="./assets/image/about img.png" alt="Ảnh đại diện">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3 class="Intro-about">FontEnd Developer</h3>
+            <p>I transform design concepts into seamless and interactive experiences.
+                I thrive on optimizing site performance and ensuring compatibility across different platforms and devices.
+                Constantly seeking innovative solutions, I love exploring the latest web technologies and implementing them in my projects.
+                Beyond coding, I'm a team player, a problem solver, and a continuous learner. My goal is to bring impactful digital experiences to life and contribute to the ever-evolving world of web development.
+                Let's build something amazing together!</p>
+            <a class="custom-btn btn" href="#" >READ MORE</a>
+        </div>
+    </section>
+
+    <!-- Skills section design -->
+    <section class="skills" id="skills">
+        <h2 class="heading">MY <span>SKILLS</span></h2>
+        <div class="skill">
+            <span class="skill-name">HTML</span>
+            <div class="skill-percentage">
+                <div class="html-progress" style="width: 90%;">90%</div>
+            </div>
+        </div>
+          
+        <div class="skill">
+            <span class="skill-name">CSS</span>
+            <div class="skill-percentage">
+                <div class="css-progress" style="width: 80%;">80%</div>
+            </div>
+        </div>
+        
+        <div class="skill">
+            <span class="skill-name">JavaScript</span>
+            <div class="skill-percentage">
+                <div class="js-progress" style="width: 70%;">70%</div>
+            </div>
+        </div>
+        
+        <div class="skill">
+            <span class="skill-name">Web Design</span>
+            <div class="skill-percentage">
+                <div class="web-design-progress" style="width: 95%;">95%</div>
+            </div>
+        </div>
+        
+        <div class="skill">
+            <span class="skill-name">Web Development</span>
+            <div class="skill-percentage">
+                <div class="web-development-progress" style="width: 85%;">85%</div>
+            </div>
+        </div>
+        
+        <div class="skill">
+            <span class="skill-name">SEO Marketing</span>
+            <div class="skill-percentage">
+                <div class="seo-marketing-progress" style="width: 70%;">70%</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact design -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+            <form action="#">
+                <div class="input-box">
+                    <input type="text" placeholder="Full Name">
+                    <input type="email" placeholder="Email Adress">
+                </div>
+                <div class="input-box">
+                    <input type="number" placeholder="Phone Number">
+                    <input type="text" placeholder="Email Subject">
+                </div>
+                <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+                <input type="submit" value="Send Message" class="custom-btn btn-2">
+            </form>
+    </section>
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
